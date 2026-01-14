@@ -1,0 +1,125 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:bisque;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+    
+
+}
+#menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+}
+#menu h3{
+    font-size: 16px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+
+}
+#menu i{
+    font-size: 16px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;    
+}
+#nav button{
+    font-size: 16px;
+    border: 1.5px solid black;
+    font-weight: 500;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+#Signup{
+    
+    background-color: orangered;
+    border: none;
+    color: white; 
+}
+#CompanyName{
+    display: flex;
+    font-size: 30px;
+    font-weight: 1000;
+
+}
+h1#TagLine{
+     text-transform: uppercase;
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 100px;
+     width: 170%;
+     text-align: center;
+     
+}
+#image img{
+    height: 430px;
+    width: 370px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15%;
+}
+img#img {
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+
+img#img2 {
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+
+img#img3 {
+    transform: translate(-50%, -50%) rotate(10deg);
+}
+#bottom1{
+    font-size: 20px;
+    position: absolute;
+    bottom: 7%;
+    left: 2.5%;
+}
+#bottom2{
+    font-size: 50px;
+    border: 1.5px solid black;
+    border-radius: 50%;
+    padding: 5px 9px;
+    
+    position: absolute;
+    bottom: -2%;
+    left: 50%;
+}
+#SocialMedia{
+    position: absolute;
+    bottom: 3%;
+    right: 3%;
+    font-size: 20px;
+}
+
+
+
+
+
